@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="cooltext" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#0049E8</item>
+        <item name="android:textFontWeight">800</item>
+    </style>
+
+    <style name="themedbutton" parent="Widget.AppCompat.Button">
+        <item name="colorPrimary">#CCFFBB</item>
+        <item name="colorAccent">#CCFFBB</item>
+        <item name="backgroundColor">#CCFFBB</item>
+        <item name="android:textColor">#123456</item>
+    </style>
+    
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#77BFC8</item>
+        <item name="buttonStyle">@style/themedbutton</item>
+    </style>
+    
+</resources>
